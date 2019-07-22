@@ -1,0 +1,3 @@
+[submodule "windows-setup-tool"]
+	path = Scripts/windows-setup-tool
+	url = https://github.com/JeanMGirard/windows-setup-tool.git

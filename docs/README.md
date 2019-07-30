@@ -18,4 +18,16 @@
 
 
 
+## Typescript
+---------------------
+[Continue](/)
 
+
+## Docker & Kubernetes
+---------------------
+[Continue](/)
+
+
+## Terraform
+---------------------
+[Continue](/)

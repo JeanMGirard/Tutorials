@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <div class="container-fluid" style="width:100vh;">
+
+<!-- Image and text -->
+            <nav class="navbar navbar-light bg-light" style="margin-bottom: 100px;">
+                <a class="navbar-brand" href="#">
+                <img src="/assets/js.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Websockets <small>(Server &#60;--&#62; Client)</small>
+                </a>
+            </nav>
+      
+            <div id="notif-ex" class="toast" role="alert" aria-live="assertive" aria-atomic="true" 
+                    style="position: fixed; top: 20vh; right: 20vw;" data-delay="1000">
+                <div class="toast-header">
+                <img src="/" class="rounded mr-2" alt="...">
+                <strong class="mr-auto">Notification exemple</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="toast-body">
+                Hello, world! This is a toast message.
+                </div>
+            </div>
+
+
+            <button id="notif-button" type="button" class="btn btn-light">Send an event</button></br>
+            <button id="broadcast-button" type="button" class="btn btn-light">Broadcast an event (Relay)</button></br>
+            <button id="everyone-button" type="button" class="btn btn-light">Broadcast an event</button>
+        </div>
+
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+        <script>
+        var socket = io.connect('http://localhost:3000');
+        socket.on('news', function (data) {
+            console.log(data);
+            socket.emit('my other event', { my: 'data' });
+        });
+        // RESPONSE FROM SERVER
+        socket.on('notif', function (data) {
+            $('#notif-ex').toast('show')
+        });
+        socket.on('broadcast', function (data) {
+            $('#notif-ex').toast('show')
+        });
+
+
+        // SENDING TO SERVER
+        $("#notif-button").click(function(){
+            console.log("Sending event to server");
+            socket.emit("sendnotif", { info: 'button clicked' } )
+        });
+        $("#broadcast-button").click(function(){
+            console.log("Sending event to server");
+            socket.emit("sendbroadcast", { info: 'button clicked' } )
+        });
+        $("#everyone-button").click(function(){
+            console.log("Sending event to server");
+            socket.emit("sendeveryone", { info: 'button clicked' } )
+        });
+
+        </script>
+    </body>
+</html>

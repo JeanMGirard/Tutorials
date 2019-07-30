@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JeanMGirard/Tutorials/issues"
   },
-  "homepage": "https://github.com/JeanMGirard/Tutorials#readme"
+  "homepage": "https://github.com/JeanMGirard/Tutorials#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
 }

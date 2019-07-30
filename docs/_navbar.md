@@ -1,1 +1,1 @@
-[Tutorials](https://jeanmgirard.github.io/Tutorials/) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Lobby](../)&nbsp;&nbsp;&nbsp; 
+[Tutorials](https://jeanmgirard.github.io/Tutorials/) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Lobby](https://jeanmgirard.github.io/)&nbsp;&nbsp;&nbsp; 

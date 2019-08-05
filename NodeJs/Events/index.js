@@ -3,4 +3,5 @@
 
 var listerner = require("./listeners");
 
-listerner.emit("event", { name: "Christmas" })
+listerner.emit("event", {})
+//listerner.emit("event", { name: "Christmas" })

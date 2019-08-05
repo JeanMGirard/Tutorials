@@ -1,7 +1,6 @@
 
 // Frameless events
 
-var receivers = require("./receivers");
-var emitters = require("./emitters");
+var listerner = require("./listeners");
 
-receivers.emit("event", {})
+listerner.emit("event", { name: "Christmas" })

@@ -26,24 +26,29 @@ task('less', function() {
 });
 
 task('build', parallel('less'));
-task('dev', series('less-watch'));
-/** 
- * default task 
+//task('dev', series('less-watch'));
+/**
+ * default task
  * > gulp
  */
 
 function defaultTask(cb) {
     // place code here
     cb();
-}  
+}
 exports.default = defaultTask
 
 
 
 
+function watchLess(cb){
+  watch('./src/less/**/*.less', { ignoreInitial: false })
+    .pipe(less())
+    .pipe(gulp.dest('./dist/css'));
+  cb()
+}
 
-
-
+exports.dev = watchLess;
 /**
  *  MORE EXEMPLES
  */
@@ -51,41 +56,42 @@ exports.default = defaultTask
  /**
   * WATCH
   */
-task('less-watch', function() {
-    return watch('./src/less/**/*.less', { ignoreInitial: false })
-        .pipe(less())
-        .pipe(gulp.dest('./dist/css'));
-});
+
+//task('less-watch', function() {
+  //  return watch('./src/less/**/*.less', { ignoreInitial: false })
+//      .pipe(less())
+ //       .pipe(gulp.dest('./dist/css'));
+//});*/
 /**
  *  CONCAT - (Important que concat soit avant less)
  */
- task('less-concat', function(){
-    return gulp.src('./src/less/**/*.less')
-    .pipe(concat("style.less"))
-    .pipe(less())
-    .pipe(cleanCSS({debug: true, compatibility: 'ie8'}, (details) => {
-        console.log(`${details.name}: ${details.stats.originalSize}Kb`);
-        console.log(`${details.name}: ${details.stats.minifiedSize}Kb`);
-    }))
-    .pipe(gulp.dest('./dist/concat'));
- });
+// task('less-concat', function(){
+//    return gulp.src('./src/less/**/*.less')
+//    .pipe(concat("style.less"))
+//    .pipe(less())
+ //   .pipe(cleanCSS({debug: true, compatibility: 'ie8'}, (details) => {
+ //       console.log(`${details.name}: ${details.stats.originalSize}Kb`);
+ //       console.log(`${details.name}: ${details.stats.minifiedSize}Kb`);
+ //   }))
+ //   .pipe(gulp.dest('./dist/concat'));
+ //});
 
  /**
   * SOURCEMAPS & MINIFY
   */
- task('minify-css',() => {
-    return gulp.src('./src/*.css')
-      .pipe(sourcemaps.init())
-      .pipe(cleanCSS())
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('./dist/minify'));
-});
+// task('minify-css',() => {
+//    return gulp.src('./src/*.css')
+//      .pipe(sourcemaps.init())
+ //     .pipe(cleanCSS())
+ //     .pipe(sourcemaps.write())
+ //     .pipe(gulp.dest('./dist/minify'));
+//});
 
 
- task('sourcemaps-css', function(){
-    return gulp.src('./src/less/**/*.less')
-        .pipe(sourcemaps.init())
-        .pipe(cleanCSS())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./dist/sourcemaps'));
- });
+// task('sourcemaps-css', function(){
+//    return gulp.src('./src/less/**/*.less')
+//        .pipe(sourcemaps.init())
+// /       .pipe(cleanCSS())
+//        .pipe(sourcemaps.write())
+//        .pipe(gulp.dest('./dist/sourcemaps'));
+// });

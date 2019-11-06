@@ -1,0 +1,14 @@
+.primary-accent {
+  background: #285050;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#content {
+  width: 50px;
+  font-size: 22px;
+}
+#content ul {
+  height: 50px;
+}

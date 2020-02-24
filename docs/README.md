@@ -12,6 +12,7 @@
 ## Node, Javascript & Typescript
 ---------------------
 - [Events](/node-events/)
+- [Typescript](/node-events/)
 
 #### Resources
 - [v8](https://v8.dev)
@@ -37,3 +38,7 @@
 ## Terraform
 ---------------------
 [Continue](/)
+
+## Python
+---------------------
+[Continue](/git/)

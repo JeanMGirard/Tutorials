@@ -1,6 +1,6 @@
 
 <!-- docs/_sidebar.md -->
-* [Home](/)
+* [Home](#docs)
 * [NodeJs, Js & Typescript](#web-servers)
   * [Web Servers](#web-servers)
   * [Databases](#Databases)

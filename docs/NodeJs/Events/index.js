@@ -1,7 +1,12 @@
+const Events = require('events');
+const eventEmitter = new Events.EventEmitter();
+class MyEventEmitter  extends Events {}
 
-// Frameless events
+// === Emit ======================
+const myEmitter = new MyEventEmitter();
+myEmitter.emit('event', { any: "data" });
 
-var listerner = require("./listeners");
-
-//listerner.emit("event", {})
-listerner.emit("event", { name: "Christmas" })
+// === Listen ======================
+myEmitter.on('event', data => {
+  console.log('an event occurred!' + data.any);
+});

@@ -7,20 +7,22 @@
 [Continue](/gulp-less/)
 
 
-## Node events
+
+
+## [Node](/node-events/)
 ---------------------
-[Continue](/node-events/)
-
-
-## Git
----------------------
-[Continue](/git/)
-
-
+- [Weak references](https://v8.dev/features/weak-references)
+- [Optional chaining](https://v8.dev/features/optional-chaining)
+- [Object desctructuring](https://v8.dev/features/object-rest-spread)
+- [Dynamic imports](https://v8.dev/features/dynamic-import)
 
 ## Typescript
 ---------------------
 [Continue](/)
+
+## Git
+---------------------
+[Continue](/git/)
 
 
 ## Docker & Kubernetes

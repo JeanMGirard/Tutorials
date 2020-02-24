@@ -27,9 +27,9 @@
 - [Express](/NodeJs/Express/)
 
 ###### Databases
-- [SQL](/NodeJs/SQL/)
-- [Mongo](/NodeJs/Mongo/)
-- [Redis](/NodeJs/Redis/)
+* [SQL](NodeJs/SQL/README.md)
+- [Mongo](NodeJs/Mongo/README.md)
+- [Redis](NodeJs/Redis/README.md)
 
 ###### Typescript
 - [Typescript](/NodeJs/Typescript)

@@ -1,4 +1,5 @@
 # Docs
+
 - NodeJs, Js & Typescript [=>](#nodejs2)
 - NodeJs, Js & Typescript [=>](#nodejs)
   - [Web Servers](#web-servers)
@@ -17,8 +18,8 @@
 
 
 
-## NodeJs, Js & Typescript {: #nodejs2 }
--------------------------------------------------- {#nodejs}
+## NodeJs, Js & Typescript
+--------------------------------------------------
 - [Basics](/NodeJs/Basics/)
 - [Events](/NodeJs/Events/)
 - [WebSockets](/NodeJs/WebSockets/)
@@ -29,6 +30,7 @@
 ###### Databases
 - [SQL](/NodeJs/SQL/)
 - [Mongo](/NodeJs/Mongo/)
+- [Redis](/NodeJs/Redis/)
 
 ###### Typescript
 - [Typescript](/NodeJs/Typescript)
@@ -55,7 +57,7 @@
 
 
 ## Git
----------------------
+--------------------- {#nodejs}
 [Continue](/git/)
 
 

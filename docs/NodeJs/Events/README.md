@@ -1,6 +1,28 @@
 # NodeJs
 ## Events
 
+```js
+const Events = require('events');
+const eventEmitter = new Events.EventEmitter();
+class MyEventEmitter  extends Events {}
+```
+
+#### Emitting
+```js
+const myEmitter = new MyEventEmitter();
+myEmitter.emit('event', { any: "data" });
+```
+
+### Receivers
+```js
+const myReceiver = new MyEventEmitter();
+myReceiver.on('event', data => {
+  console.log('an event occurred!' + data.any);
+});
+```
+
+
+
 #### Resources
 https://www.w3schools.com/nodejs/nodejs_events.asp
 - [Socket.io](https://socket.io/docs/)  

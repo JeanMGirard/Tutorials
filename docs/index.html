@@ -14,16 +14,18 @@
     window.$docsify = {
       name: 'JeanMGirard - Docs',
       // logo: '/_media/icon.svg'
-      // basePath: 'https://jeanmgirard.github.io/Docs',
+     // basePath: 'https://jeanmgirard.github.io/Docs',
+      basePath: 'http://localhost:3000/',
       // coverpage: 'cover.md',
       // themeColor: '#3F51B5'
       // notFoundPage: 'my404.md'
-      relativePath: false // Relative path disabled (default value)
+      relativePath: false, // important
       repo: 'JeanMGirard/Docs',
       loadNavbar: true,
       loadSidebar: true,
       autoHeader: true,
-      subMaxLevel: 1
+      subMaxLevel: 4,
+      maxLevel: 4
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

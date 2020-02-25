@@ -1,14 +1,13 @@
-
 <!-- docs/_sidebar.md -->
-* [Home](#docs)
-* [NodeJs, Js & Typescript](#web-servers)
-  * [Web Servers](#web-servers)
-  * [Databases](#Databases)
-  * [Typescript](#Typescript)
+
+* [Home](/README.md)
+* [NodeJs](/NodeJs/README.md)
+* [Git](/Git/README.md)
+
 * [Front-end Frameworks](#)
   * [React](#React)
   * [Angular](#Angular)
   * [BackBone](#BackBone)
-* [Version control](#)
+* [Version control](#versionControl)
   * [Git](#Git)
 * [Docker & Kubernetes](guide.md "The greatest guide in the world")

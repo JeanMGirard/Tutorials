@@ -1,1 +1,3 @@
-# Git
+# Version control
+
+## Git

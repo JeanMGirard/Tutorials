@@ -1,58 +1,45 @@
-# Docs
-
-- NodeJs, Js & Typescript
-  - [Web Servers](#web-servers)
-  - [Databases](#Databases)
-  - [Typescript](#Typescript)
-
-- Front-end Frameworks
-  - [React](#React)
-  - [Angular](#Angular)
-  - [BackBone](#BackBone)
-
-- Version control
-  - [Git](#Git)
-
-- Docker & Kubernetes
+# Docs {docsify-ignore-all}
 
 
 
-## NodeJs, Js & Typescript
---------------------------------------------------
-- [Basics](/NodeJs/Basics/)
-- [Events](/NodeJs/Events/)
-- [WebSockets](/NodeJs/WebSockets/)
+| Subjects                            | Technologies | Concepts   |
+| ----------------------------------- | ----------- | --- |
+| **General**                         |             | |
+| &nbsp;&nbsp; Languages (General)    | [Typescript](), [Javascript](), [Python](), [C#]() | |
+| &nbsp;&nbsp; Languages (script)     | [Bash](), [Powershell]() | |
+| &nbsp;&nbsp; Languages (query)      | [GraphQL](), [SPARQL]() | |
+| &nbsp;&nbsp; Unit testing           | [Jest](), [Mocha]() | |
+| &nbsp;&nbsp; Version control        | [Git](), [TFS]() | |
+| &nbsp;&nbsp; Documentation          | [Markdown](), [Docsify](), [Docusaurus](), [JSDocs]() | |
+| **Frontend**                        |             | |
+| &nbsp;&nbsp; Frameworks             | [React](), [Angular](), [BackBone](), [Vue]() | [Code spliting]() |
+| &nbsp;&nbsp; Compilateurs           | [Gulp](), [Rollup](), [Webpack]() |  |
+| &nbsp;&nbsp; Styling (CSS)          | [Sass](), [Less](), [PostCSS]() | |
+| &nbsp;&nbsp; Libraries              | [JQuery]()  | |
+| **Backend**                         |             | |
+| &nbsp;&nbsp; Web Servers            | [Express](), [Django](), [Apache]()   |  [APIs](), [Web Caching]() |
+| &nbsp;&nbsp; Databases              | [MongoDB](), [Redis](), [PostgreSQL](), [MySQL]() | [Polyglote Persistence]() |
+| &nbsp;&nbsp; Provisionning          | [Terraform](), [Ansible]() | |
+| &nbsp;&nbsp; Containers             | [Docker](), [crio](), [containerd](), [Kubernetes](), [Helm]()  | [Orchestration]() |
+| &nbsp;&nbsp; Serverless             | [Lambda](), [Azure functions](), [Firebase]() | |
+| &nbsp;&nbsp; Proxies                | [Nginx](), [HAProxy]() | | 
+| **Other**                           |             | |
+| &nbsp;&nbsp; Concepts               | [Services](), | |
+| &nbsp;&nbsp; Services/Companies     | [Azure](), [GCE](), [AWS]() | |
+| &nbsp;&nbsp; Foundations            | [CNCF](), [Linux Foundation]() | | 
+| &nbsp;&nbsp; Standard               | [ECMAscript]() | | 
 
-###### Web Servers
-- [Express](/NodeJs/Express/)
-
-###### Databases
-* [SQL](NodeJs/SQL/README.md)
-- [Mongo](NodeJs/Mongo/README.md)
-- [Redis](NodeJs/Redis/README.md)
-
-###### Typescript
-- [Typescript](/NodeJs/Typescript)
 
 
-#### Resources  {docsify-ignore}
-- [v8](https://v8.dev) 
-- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-#### Articles  {docsify-ignore}
-- [Weak references](https://v8.dev/features/weak-references)*
-- [Optional chaining](https://v8.dev/features/optional-chaining)
-- [Object desctructuring](https://v8.dev/features/object-rest-spread)
-- [Dynamic imports](https://v8.dev/features/dynamic-import)
-- [Node caching](https://medium.com/@danielsternlicht/caching-like-a-boss-in-nodejs-9bccbbc71b9b)*
 
-#### Tools {docsify-ignore}
+
+
+
+
 
 ## Front-end Frameworks
 ----------------------------------------------------------------------------------------
-###### React
-###### Angular
-###### BackBone
 
 
 ## Git
@@ -76,5 +63,4 @@
 
 ## Other
 ---------------------
-[Gulp & Less](/gulp-less/)
-[docsify](https://docsify.js.org/#/embed-files)
+* [docsify](https://docsify.js.org/#/embed-files)

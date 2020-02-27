@@ -1,5 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/README.md)
-* [NodeJs](/docs/NodeJs/README.md)
-* [Git](/docs/README.md)
+* [home](../)
+* [docs](/README.md)
+  * [git](/git/README.md)
+  * [nodejs](/nodejs/README.md)
+  * [markdown](/markdown/README.md)
+  * [typescript](/typescript/README.md)
+

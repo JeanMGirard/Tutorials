@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Documentations](/docs/)
+* [Documentations](https://jeanmgirard.github.io/docs/subjects/)
 * [Articles](/articles/README.md)

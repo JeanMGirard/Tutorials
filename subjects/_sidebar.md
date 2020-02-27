@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [home](../)
+* [home](https://jeanmgirard.github.io/docs/)
 * [docs](/README.md)
   * [git](/git/README.md)
   * [nodejs](/nodejs/README.md)

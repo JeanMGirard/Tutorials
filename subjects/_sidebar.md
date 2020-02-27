@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/README.md)
-* [Documentations](/docs/README.md)
+* [Home](https://jeanmgirard.github.io/docs/)
+* [Documentations](/README.md)
   * [git](/git/README.md)
   * [nodejs](/nodejs/README.md)
   * [markdown](/markdown/README.md)

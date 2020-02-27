@@ -28,6 +28,6 @@ Receive detailed analysis of error distributions and timelines
 
 **[gitlab integration](https://sentry.io/integrations/gitlab/)**
 
-<img src="/articles/error-reporting/sentry-gitlab-link.png" 
+<img src="/error-reporting/sentry-gitlab-link.png" 
      alt="gitlab integration"
      style="float: left; margin-right: 10px; width: 240px;" />

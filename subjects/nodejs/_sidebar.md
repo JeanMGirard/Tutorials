@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Documentations](/README.md)
+* [Return](/README.md)
 * [NodeJs](/nodejs/README.md)
   * [Basics](/nodejs/basics/README.md)
     * [Events](/nodejs/events/README.md)

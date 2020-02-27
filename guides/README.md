@@ -2,7 +2,7 @@
 
 
 
-| Subjects                            | Technologies | Concepts   |
+| Topics                              | Technologies | Concepts   |
 | ----------------------------------- | ----------- | --- |
 | **General**                         |             | |
 | &nbsp;&nbsp; Languages (General)    | [Typescript](), [Javascript](), [Python](), [C#]() | |

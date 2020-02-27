@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 <ul>
-  <li><a href="https://jeanmgirard.github.io/docs/" target="_self" rel="noopener">Home</a></li>
-  <li><a href="https://jeanmgirard.github.io/docs/#/articles/README.md" target="_self" rel="noopener">Home</a></li>
+  <li><a href="https://jeanmgirard.github.io/docs/" target="_self" rel="noopener">home</a></li>
+  <li><a href="https://jeanmgirard.github.io/docs/#/articles/README.md" target="_self" rel="noopener">articles</a></li>
 </ul>
 
 * [Documentations](/README.md)

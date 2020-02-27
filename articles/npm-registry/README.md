@@ -38,7 +38,7 @@ Act as a native repository for the artifacts. Meaning you can use it as the main
 
 ## Solutions
 
-#### DevOps tools
+### DevOps tools
 Your current devOps suite might support some kind of artifact or package management.
 
 * [Gitlab](https://about.gitlab.com/) enterprise - 19$/month
@@ -46,7 +46,7 @@ Your current devOps suite might support some kind of artifact or package managem
 
 [azure-devops-vs-gitlab](https://docs.microsoft.com/en-us/azure/devops/learn/compare/azure-devops-vs-gitlab)
 
-#### Artifact repositories
+### Artifact repositories
 To support all or most artifact types, an artifact repository is the way to go. 
 
 * [Nexus](https://www.sonatype.com/product-nexus-repository)
@@ -58,7 +58,7 @@ To support all or most artifact types, an artifact repository is the way to go.
     * Free tier
 * [Artifactory](https://jfrog.com/artifactory/)
 
-#### NPM Registries
+### NPM Registries
 If you only need npm packages, a simple npm registry can get the job done. 
 
 **Exemples**:

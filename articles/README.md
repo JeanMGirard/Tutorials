@@ -1,1 +1,1 @@
-# Docs {docsify-ignore-all}
+# Articles {docsify-ignore-all}

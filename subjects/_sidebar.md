@@ -1,7 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](https://jeanmgirard.github.io/docs/ ':target=_self')
-* [Articles](https://jeanmgirard.github.io/docs/#/articles/README ':target=_self')
+<li><a href="https://jeanmgirard.github.io/docs/" target="_self" rel="noopener">Home</a></li>
+<li><a href="https://jeanmgirard.github.io/docs/#/articles/README.md" target="_self" rel="noopener">Home</a></li>
+
+
 * [Documentations](/README.md)
   * [git](/git/README.md)
   * [nodejs](/nodejs/README.md)

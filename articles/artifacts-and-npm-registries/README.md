@@ -31,7 +31,9 @@ Artifact repositories however are designed to store all kinds of files, includin
 
 **Versioning support**: properly store some metadata, like when each artifact was built, what their version number is, store their hashes, etc.
 Retention: make sure you only keep the important artifacts, and automatically delete ones that are only snapshots / not needed anymore, etc. based on various criteria you can set up.
+
 **Access control**: set up who can publish and who can download the various artifacts
+
 **Promotion**: ability to promote artifacts. For example you can have snapshot artifacts with a short retention period on a server near your coders, and a separate repository near the live servers, where only artifacts that have been deemed deployable appear. This also includes support for various version channels, and moving artifacts between them (like promoting a specific version from beta to stable).
 Act as a native repository for the artifacts. Meaning you can use it as the main repository for maven, rubygems, docker, etc. This can also include caching of artifacts from the official repositories as well.
 

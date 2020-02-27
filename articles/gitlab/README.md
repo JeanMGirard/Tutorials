@@ -1,4 +1,4 @@
-# Gitlabs
+# Gitlab
 
 
 ## Deployment

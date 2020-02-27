@@ -1,10 +1,18 @@
 # Error reporting
 
 ## Advantages
-**Root-cause analysis**: With searchable, detailed information on the operating system, device, timing, and more, it helps trace an error to its root.
-**Trail of events**: Breadcrumbs make application development a little easier by showing you the trails of events that lead to the error(s).
-**Git integrations**: Create issues in your git solutions automatically.
-**Understand the impact**: Receive detailed analysis of error distributions and timelines
+
+**Root-cause analysis**: 
+With searchable, detailed information on the operating system, device, timing, and more, it helps trace an error to its root.
+
+**Trail of events**: 
+Breadcrumbs make application development a little easier by showing you the trails of events that lead to the error(s).
+
+**Git integrations**: 
+Create issues in your git solutions automatically.
+
+**Understand the impact**: 
+Receive detailed analysis of error distributions and timelines
 
 ## Solutions
 * [Sentry](https://sentry.io/welcome/)
@@ -14,7 +22,7 @@
 * [AWS X-Ray](https://aws.amazon.com/xray/)
 
 
-### Error reporting with Sentry
+### Sentry
 * Sentry shows your source code right in the stacktrace, so you don’t need to find it yourself.
 
 

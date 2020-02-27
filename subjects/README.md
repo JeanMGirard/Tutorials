@@ -35,39 +35,3 @@
 | &nbsp;&nbsp; Services/Companies     | [Azure](), [GCE](), [AWS]() | |
 | &nbsp;&nbsp; Foundations            | [CNCF](), [Linux Foundation]() | | 
 | &nbsp;&nbsp; Standard               | [ECMAscript]() | | 
-
-
-
-
-
-
-
-
-
-
-## Front-end Frameworks
-----------------------------------------------------------------------------------------
-
-
-## Git
---------------------- {#nodejs}
-[Continue](/git/)
-
-
-## Docker & Kubernetes
----------------------
-[Continue](/)
-
-
-## Terraform
----------------------
-[Continue](/)
-
-## Python
----------------------
-[Continue](/git/)
-
-
-## Other
----------------------
-* [docsify](https://docsify.js.org/#/embed-files)

@@ -10,3 +10,4 @@
   * [dotfiles](/dotfiles/README.md)
   * [awesome-lists](/awesome-lists/README.md)
   * [boilerplates](/boilerplates/README.md)
+  * [tools](/tools/README.md)

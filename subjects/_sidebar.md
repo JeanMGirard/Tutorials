@@ -6,5 +6,5 @@
   * [nodejs](/nodejs/README.md)
   * [markdown](/markdown/README.md)
   * [typescript](/typescript/README.md)
-* [Articles](/articles/README.md)
+* [Articles](https://jeanmgirard.github.io/docs/#/articles/README)
 

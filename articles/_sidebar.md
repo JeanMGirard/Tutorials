@@ -11,5 +11,5 @@
 * [Articles](/)
   * [error-reporting](/error-reporting/README.md)
   * [gitlab](/gitlab/README.md)
-  * [Artifacts & NPM Registries](/artifacts-and-npm-registries/README.md)
+  * [Artifacts & NPM Registries](/artifacts-and-registries/README.md)
 

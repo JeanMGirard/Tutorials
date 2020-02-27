@@ -1,4 +1,4 @@
-# Artifacts & NPM Registries
+# Artifacts & Registries
 Artifacts are significant from a project management perspective as deliverables. The deliverables of a software project are likely to be the same as its artifacts with the addition of the software itself.
 
 Simply said.. An artifact is a deployable component of your application

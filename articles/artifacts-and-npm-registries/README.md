@@ -13,7 +13,9 @@ Storing them apart from Code Repository in an Artifact Repository is a design de
 Most common artifacts are results of the following processes: Configuration, Preprocessing, Compilation, Linking, Automated Testing, Archiving, Packaging, Media files creation and processing, Data File Generation, Documentation Parsing, Code analyzing, QA, etc.
 
 
-## Advantages (some of them)
+## Advantages 
+(some of them)
+
 During development you generate a fair amount of different artifacts. These might include:
 
 * The source code

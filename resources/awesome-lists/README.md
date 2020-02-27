@@ -2,7 +2,7 @@
 
 #### Awesome lists
 
-|     |     |
+| List / Repo | Description |
 | --- | --- |
 | [awesome](https://github.com/sindresorhus/awesome) |  All kinds of interesting topics |
 | [awesome-angular](https://github.com/PatrickJS/awesome-angular) |     |

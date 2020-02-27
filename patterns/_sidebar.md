@@ -6,3 +6,5 @@
 
 
 * [patterns](/)
+  * [design patterns](/)
+  * [creational Patterns](/)

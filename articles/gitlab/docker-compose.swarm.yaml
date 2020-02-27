@@ -1,0 +1,44 @@
+version: "3.7"
+services:
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: unless-stopped
+#    hostname: 'gitlab.example.com'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: "from_file('/omnibus_config.rb')"
+    ports:
+      - '8020:80'
+      - '8021:443'
+      - '8022:22'
+    volumes:
+      - 'vol_config:/etc/gitlab'
+      - 'vol_logs:/var/log/gitlab'
+      - 'vol_data:/var/opt/gitlab'
+      - 'vol_packages:/mnt/packages'
+    secrets:
+      - gitlab_root_password
+    configs:
+      - source: gitlab
+        target: /omnibus_config.rb
+
+  gitlab-runner:
+    image: gitlab/gitlab-runner:alpine
+    deploy:
+      mode: replicated
+      replicas: 2
+
+volumes:
+  vol_packages:
+  vol_config:
+  vol_logs:
+  vol_data:
+
+configs:
+  gitlab:
+    file: ./gitlab.rb
+    
+secrets:
+  gitlab_root_password:
+    file: ./root_password.txt
+
+# docker exec -it gitlab update-permissions

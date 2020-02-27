@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  verdaccio:
+    container_name: verdaccio
+    image: verdaccio/verdaccio
+    ports:
+      - 4873:4873
+    volumes:
+      - vdc_configs:/verdaccio/conf
+      - vdc_storage:/verdaccio/storage
+      - vdc_plugins:/verdaccio/plugins
+    environment:
+      VERDACCIO_USER_NAME: verdaccio
+      VERDACCIO_USER_UID: 10001
+      VERDACCIO_PORT: 4873
+      VERDACCIO_PROTOCOL: http
+  
+  nexus:
+    container_name: nexus
+    image: sonatype/nexus3
+    ports:
+      - 8081:8081
+    volumes:
+      - nexus-data:/nexus-data 
+
+volumes:
+  vdc_configs:
+  vdc_storage:
+  vdc_plugins:
+  nexus-data:

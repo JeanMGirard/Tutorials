@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/README.md)
+* [Home](/)
 * [Documentations](/docs/)
 * [Articles](/articles/README.md)

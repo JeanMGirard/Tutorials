@@ -10,7 +10,9 @@ To use the new tag:
 <app-drawer></app-drawer>
 ```
 
-### Creating and using a shadow root
+
+### Shadow root
+#### Creating and using a shadow root
 *You can think of shadow DOM as a scoped subtree inside your element.*
 
 A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():

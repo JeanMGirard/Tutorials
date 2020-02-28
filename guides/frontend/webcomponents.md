@@ -5,11 +5,11 @@
 ## ** About **
 [webcomponents-about](webcomponents-about.md ':include')
 
-## ** Introduction **
+## ** Intro **
 [webcomponents-intro](webcomponents-intro.md ':include')
 
 ## ** Advanced **
-TODO
+[webcomponents-advanced](webcomponents-advanced.md ':include')
 
 ## ** References **
 [webcomponents-references](webcomponents-references.md ':include')

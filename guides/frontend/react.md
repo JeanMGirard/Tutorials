@@ -1,4 +1,7 @@
 # React
+[cheatsheet](https://devhints.io/react)
+[devdocs](https://devdocs.io/react/)
+
 
 <!-- tabs:start -->
 
@@ -8,8 +11,10 @@
 ## ** Introduction **
 [react-intro](react-intro.md ':include')
 
+
 ## ** Advanced **
 [react-advanced](react-advanced.md ':include')
+
 
 ## ** References **
 [react-references](react-references.md ':include')
@@ -18,3 +23,5 @@
 [react-resources](react-resources.md ':include')
 
 <!-- tabs:end -->
+
+

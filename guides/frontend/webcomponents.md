@@ -1,33 +1,55 @@
 # Web Components
 
+
 <!-- tabs:start -->
+[webcomponents-about](webcomponents-about.md ':include')
 
-#### ** English **
+## Introduction
 
-Hello!
+### define a new HTML element
 
-#### ** French **
+```js
+class AppDrawer extends HTMLElement {...}
+window.customElements.define('app-drawer', AppDrawer);
+```   
+To use the new tag:
+```html
+<app-drawer></app-drawer>
+```
 
-Bonjour!
+### Creating and using a shadow root
+*You can think of shadow DOM as a scoped subtree inside your element.*
 
-#### ** Italian **
+A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
-Ciao!
+```js
+const header = document.createElement('header');
+const shadowRoot = header.attachShadow({mode: 'open'});
+shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChild().
+// header.shadowRoot === shadowRoot
+// shadowRoot.host === header
+```
 
-<!-- tabs:end -->
+## Advanced
 
 
-## About
-### What are web components?
-Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and can be used with any JavaScript library or framework that works with HTML.
+## References
 
-Web components are based on existing web standards. Features to support web components are currently being added to the HTML and DOM specs, letting web developers easily extend HTML with new elements with encapsulated styling and custom behavior.
-
-### Specifications
-**Custom Elements**: The [Custom Elements specification](https://html.spec.whatwg.org/multipage/custom-elements.html) lays the foundation for designing and using new types of DOM elements.  
-**Shadow DOM**: The [shadow DOM specification](https://w3c.github.io/webcomponents/spec/shadow/) defines how to use encapsulated style and markup in web components.  
-**ES Modules**: The [ES Modules specification](https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system) defines the inclusion and reuse of JS documents in a standards based, modular, performant way.  
-**HTML Template**: The [HTML template element specification](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element/) defines how to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.  
 
 ## Resources
-[webcomponents.org](https://www.webcomponents.org/)
+* [webcomponents.org](https://www.webcomponents.org/)
+* [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+
+
+### Core librairies
+* [Hybrids](https://github.com/hybridsjs/hybrids) is a UI library for creating Web Components with simple and functional API.
+* [LitElement](https://github.com/Polymer/lit-element) uses lit-html to render into the element's Shadow DOM and adds API to help manage element properties and attributes.
+* [Polymer](https://www.polymer-project.org/) provides a set of features for creating custom elements.
+* [Slim.js](http://slimjs.com/) is an opensource lightweight web component library that provides data-binding and extended capabilities for components, using es6 native class inheritance.
+* [Stencil](https://stenciljs.com/) is an opensource compiler that generates standards-compliant web components.
+
+### Awesome lists
+* [obetomuniz/awesome-webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
+* [nepaul/awesome-web-components](https://github.com/nepaul/awesome-web-components)
+
+<!-- tabs:end -->

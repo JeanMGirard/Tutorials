@@ -1,21 +1,20 @@
 # Web Components
 
-
 <!-- tabs:start -->
 
 ## ** About **
-A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
+[webcomponents-about](webcomponents-about.md ':include')
 
 ## ** Introduction **
 
 ### define a new HTML element
 
-```js
+```js   
 class AppDrawer extends HTMLElement {...}
 window.customElements.define('app-drawer', AppDrawer);
 ```   
 To use the new tag:
-```html
+```html   
 <app-drawer></app-drawer>
 ```
 
@@ -24,7 +23,7 @@ To use the new tag:
 
 A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
-```js
+```js   
 const header = document.createElement('header');
 const shadowRoot = header.attachShadow({mode: 'open'});
 shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChild().

@@ -1,7 +1,7 @@
 ## References
 
 ### lifecycle callbacks
-```js
+```js   
 class MyElement extends HTMLElement {
   constructor() {
     super(); 
@@ -27,7 +27,7 @@ The disconnectedCallback is called whenever the element is removed from the DOM.
 #### attributeChangedCallback
 The attributeChangedCallback is called any time your element's observed attributes change. We can observe an element's attributes by implementing a static observedAttributes getter, like so:
 
-```js
+```js   
 static get observedAttributes() { return ['my-attr']; }
 ```
 
@@ -39,6 +39,6 @@ The adoptedCallback is called each time the custom element is moved to a new doc
 #### registering 
 And finally, though not part of the lifecycle, we register our element to the CustomElementRegistry like so:
 
-```js
+```js   
 window.customElements.define('my-element', MyElement);
 ```

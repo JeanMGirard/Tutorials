@@ -1,5 +1,3 @@
-[webcomponents-about](webcomponents-about.md ':include')
-
 ### What are web components?
 Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and can be used with any JavaScript library or framework that works with HTML.
 
@@ -15,7 +13,7 @@ Web components are based on existing web standards. Features to support web comp
 ### How do I use a web component?
 Using a custom element is as simple as importing it, and using the new tags in an HTML document. For example, to use the paper-button element:
 
-```html
+```html   
 <script type="module" src="node_modules/@polymer/paper-button/paper-button.js"></script>
 ...
 <paper-button raised class="indigo">raised</paper-button>
@@ -30,7 +28,7 @@ HTML Templates are a way to declare code fragments that aren’t rendered at pag
 
 Web Components expose a ``<template>`` element, which can be used like this to wrap our actual template code:
 
-```html
+```html   
 <template>
   <h1>The ultimate guide to Web Components!</h1>
   <p>What do you want to learn about Web Components today?</p>

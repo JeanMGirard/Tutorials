@@ -3,6 +3,7 @@
 
 <!-- tabs:start -->
 
+## About
 [webcomponents-about](webcomponents-about.md ':include')
 
 ## Introduction
@@ -32,10 +33,10 @@ shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChil
 ```
 
 ## Advanced
-
+A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
 ## References
-
+A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
 ## Resources
 * [webcomponents.org](https://www.webcomponents.org/)
@@ -49,8 +50,17 @@ shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChil
 * [Slim.js](http://slimjs.com/) is an opensource lightweight web component library that provides data-binding and extended capabilities for components, using es6 native class inheritance.
 * [Stencil](https://stenciljs.com/) is an opensource compiler that generates standards-compliant web components.
 
+
 ### Awesome lists
 * [obetomuniz/awesome-webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
 * [nepaul/awesome-web-components](https://github.com/nepaul/awesome-web-components)
+
+### Tutorials
+* [an-introduction-to-web-components](https://css-tricks.com/an-introduction-to-web-components/)*
+* [Web Components Tutorial for Beginners](https://www.robinwieruch.de/web-components-tutorial)
+* [component.kitchen](https://component.kitchen/tutorial)
+* [lifecycle-hooks-in-web-components](https://ultimatecourses.com/blog/lifecycle-hooks-in-web-components)
+* [ultimate-guide-to-web-components](https://ultimatecourses.com/blog/the-ultimate-guide-to-web-components)
+* [web-components-from-zero-to-hero](https://dev.to/thepassle/web-components-from-zero-to-hero-4n4m)
 
 <!-- tabs:end -->

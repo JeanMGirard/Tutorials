@@ -1,5 +1,3 @@
-## References
-
 ### lifecycle callbacks
 ```js   
 class MyElement extends HTMLElement {

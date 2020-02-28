@@ -16,6 +16,25 @@ class Clock extends React.Component {
 }
 ```
 
+### Hooks API Reference
+**Basic Hooks**   
+useState(initialState)
+useEffect(() => {})
+useContext(MyContext)	value returned from React.createContext
+Full details: Basic Hooks
+
+**Additional Hooks**   
+useReducer(reducer, initialArg, init)	 
+useCallback(() => { … })	 
+useMemo(() => { … })	 
+useRef(initialValue)	 
+useImperativeHandle(ref, () => { … })	 
+useLayoutEffect	identical to useEffect, but it fires synchronously after all DOM mutations
+useDebugValue(value)	display a label for custom hooks in React DevTools
+
+
+
+
 
 
 MAIN CONCEPTS

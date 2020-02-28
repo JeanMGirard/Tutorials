@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+  <app-drawer/>
+</body>
+
+
+
+<script>
+  class AppDrawer extends HTMLElement {
+    constructor(){
+      super();
+      this.innerHTML = "<div>Hello world</div>";
+    }
+  }
+  window.customElements.define('app-drawer', AppDrawer);
+</script>
+
+</html>

@@ -5,9 +5,8 @@
 </ul>
 
 * [guides](/README.md)
-  * [angular](/angular/README.md)
+  * [frontend](/frontend/README.md)
   * [kubernetes](/kubernetes/README.md)
-  * [react](/react/README.md)
   * [serverless](/serverless/README.md)
   * [git](/git/README.md)
   * [nodejs](/nodejs/README.md)

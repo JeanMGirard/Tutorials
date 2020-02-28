@@ -82,7 +82,7 @@ const user = { name: "some name" };
 class Clock extends React.Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       date: new Date()
     };
@@ -98,3 +98,9 @@ class Clock extends React.Component {
   }
 }
 ```
+
+
+
+### Approach
+
+https://reactjs.org/docs/thinking-in-react.html

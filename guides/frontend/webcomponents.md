@@ -1,4 +1,5 @@
 # Web Components
+[exemple](https://jeanmgirard.github.io/docs/guides/frontend/webcomponents.demo.html)
 
 <!-- tabs:start -->
 

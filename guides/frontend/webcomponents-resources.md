@@ -1,5 +1,7 @@
+## Resources
+
 * [webcomponents.org](https://www.webcomponents.org/)
-* [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 
 ### Core librairies
@@ -21,3 +23,6 @@
 * [lifecycle-hooks-in-web-components](https://ultimatecourses.com/blog/lifecycle-hooks-in-web-components)
 * [ultimate-guide-to-web-components](https://ultimatecourses.com/blog/the-ultimate-guide-to-web-components)
 * [web-components-from-zero-to-hero](https://dev.to/thepassle/web-components-from-zero-to-hero-4n4m)
+
+### Other
+[web-components-examples](https://github.com/mdn/web-components-examples)

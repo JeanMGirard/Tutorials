@@ -1,4 +1,4 @@
-
+## Introduction
 ### define a new HTML element
 
 ```js   
@@ -18,7 +18,13 @@ A shadow root is a document fragment that gets attached to a "host" element. The
 ```js   
 const header = document.createElement('header');
 const shadowRoot = header.attachShadow({mode: 'open'});
-shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChild().
-// header.shadowRoot === shadowRoot
-// shadowRoot.host === header
+shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; 
+// OR
+class OneDialog extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+    this.close = this.close.bind(this);
+  }
+}
 ```

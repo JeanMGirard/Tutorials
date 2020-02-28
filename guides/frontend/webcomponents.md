@@ -9,7 +9,7 @@
 [webcomponents-intro](webcomponents-intro.md ':include')
 
 ## ** Advanced **
-A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
+TODO
 
 ## ** References **
 [webcomponents-references](webcomponents-references.md ':include')

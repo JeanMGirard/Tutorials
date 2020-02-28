@@ -3,12 +3,10 @@
 
 <!-- tabs:start -->
 
-<!-- tab:About -->
-## About
+## ** About **
 A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
-<!-- tab:Introduction -->
-## Introduction
+## ** Introduction **
 
 ### define a new HTML element
 
@@ -34,17 +32,15 @@ shadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChil
 // shadowRoot.host === header
 ```
 
-<!-- tab:Advanced -->
-## Advanced
-A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
-
-<!-- tab:References -->
-## References
+## ** Advanced **
 A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
 
 
-<!-- tab:Resources -->
-## Resources
+## ** References **
+A shadow root is a document fragment that gets attached to a "host" element. The act of attaching a shadow root is how the element gains its shadow DOM. To create shadow DOM for an element, call element.attachShadow():
+
+
+## ** Resources **
 * [webcomponents.org](https://www.webcomponents.org/)
 * [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 

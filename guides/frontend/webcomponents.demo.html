@@ -4,7 +4,7 @@
 
 
 <body>
-  <app-drawer/>
+  <app-drawer id="drawer" drawer="dr"/>
 </body>
 
 
@@ -15,8 +15,23 @@
       super();
       this.innerHTML = "<div>Hello world</div>";
     }
+    static get observedAttributes() {
+      return ['drawer'];
+    }
+    attributeChangedCallback(name, oldVal, newVal) {
+      // alert(newVal);
+    }
+    sayHello(){
+      alert("hello");
+    }
   }
   window.customElements.define('app-drawer', AppDrawer);
+
+  setTimeout(function(){
+    document.getElementById("drawer").sayHello();
+  }, 1000)
+
+
 </script>
 
 </html>

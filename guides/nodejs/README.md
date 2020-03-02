@@ -1,19 +1,19 @@
-# NodeJs
+# nodejs
 --------------------------------------------------
-- [Basics](/NodeJs/Basics/README.md)
-- [Events](/NodeJs/Events/README.md)
-- [WebSockets](/NodeJs/WebSockets/README.md)
+- [Basics](/nodejs/basics/README.md)
+- [Events](/nodejs/events/README.md)
+- [WebSockets](/nodejs/websockets/README.md)
 
 ###### Web Servers
-- [Express](/NodeJs/Express/README.md)
+- [Express](/nodejs/express/README.md)
 
 ###### Databases
-* [SQL](/NodeJs/SQL/README.md)
-- [Mongo](/NodeJs/Mongo/README.md)
-- [Redis](/NodeJs/Redis/README.md)
+* [SQL](/nodejs/SQL/README.md)
+- [Mongo](/nodejs/Mongo/README.md)
+- [Redis](/nodejs/Redis/README.md)
 
 ###### Typescript
-- [Typescript](/NodeJs/Typescript)
+- [Typescript](/nodejs/Typescript)
 
 
 #### Resources  {docsify-ignore}

@@ -11,3 +11,4 @@
   * [awesome-lists](/awesome-lists/README.md)
   * [boilerplates](/boilerplates/README.md)
   * [tools](/tools/README.md)
+  * [stacks](/stacks/README.md)

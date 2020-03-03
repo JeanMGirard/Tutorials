@@ -1,6 +1,6 @@
 # Containers
 
-![evolution](container_evolution.svg ':size=600x200')
+![evolution](container_evolution.svg ':size=1000x250')
 
 
 [Advantages](containers-advantages.md ':include')

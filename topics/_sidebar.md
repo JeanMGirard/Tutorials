@@ -6,5 +6,8 @@
 
 
 * [topics](/)
-  * [data processing](/topics/data-processing.md)
-  * [message brokers](/topics/message-brokers.md)
+  * [data-processing](/data-processing.md)
+  * [design](/design.md)
+  * [identity](/identity.md)
+  * [machine-learning](/machine-learning.md)
+  * [message-brokers](/message-brokers.md)

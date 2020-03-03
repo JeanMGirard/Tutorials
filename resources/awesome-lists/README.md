@@ -1,11 +1,18 @@
 
 # Awesome lists
 
+**My lists**  
+
+* [awesome-docker](/awesome-lists/awesome-docker.md)
+* [awesome-dotnet](/awesome-lists/awesome-dotnet.md)
+* [awesome-git](/awesome-lists/awesome-git.md)
+* [awesome-powershell](/awesome-lists/awesome-powershell.md)
+* [awesome-windows](/awesome-lists/awesome-windows.md)
+
 **Lists of lists**  
 
 * [awesome](https://github.com/sindresorhus/awesome) - All kinds of interesting topics 
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - A curated list of awesome awesomeness 
-
 
 **Other lists**  
 

@@ -6,10 +6,10 @@
 
 
 * [resources](/)
-  * [cheatsheets](/cheatsheets/README.md)
-  * [dotfiles](/dotfiles/README.md)
   * [awesome-lists](/awesome-lists/README.md)
   * [boilerplates](/boilerplates/README.md)
-  * [tools](/tools/README.md)
+  * [cheatsheets](/cheatsheets/README.md)
+  * [dotfiles](/dotfiles/README.md)
   * [stacks](/stacks/README.md)
   * [sites](/sites/README.md)
+  * [tools](/tools/README.md)

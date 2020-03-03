@@ -1,4 +1,0 @@
-
-[QTTabBar](/)
-[Nifty Windows](/)
-[Pushbullet](/)

@@ -12,3 +12,4 @@
   * [boilerplates](/boilerplates/README.md)
   * [tools](/tools/README.md)
   * [stacks](/stacks/README.md)
+  * [sites](/sites/README.md)

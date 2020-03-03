@@ -1,0 +1,23 @@
+{
+  "name": "jeanmgirard-docs",
+  "version": "1.0.0",
+  "description": "[jeanmgirard.github.io](https://jeanmgirard.github.io/docs/#/)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "docsify serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanMGirard/docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanMGirard/docs/issues"
+  },
+  "homepage": "https://github.com/JeanMGirard/docs#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.4.0"
+  }
+}

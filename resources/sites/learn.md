@@ -1,9 +1,9 @@
 ## learn
 
 ### Online Courses
-[DataCamp](https://www.datacamp.com/)
+* [DataCamp](https://www.datacamp.com/)
 
 ### Tutorials
-[tutorialsteacher](https://www.tutorialsteacher.com/)
-[scotch.io](https://scotch.io/) - fun and practical web development tutorials
-[gitconnected](https://gitconnected.com/learn)
+* [tutorialsteacher](https://www.tutorialsteacher.com/)
+* [scotch.io](https://scotch.io/) - fun and practical web development tutorials
+* [gitconnected](https://gitconnected.com/learn)

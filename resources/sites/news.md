@@ -1,3 +1,3 @@
 ## News & Blogs
 
-https://www.infoq.com/
+* https://www.infoq.com/

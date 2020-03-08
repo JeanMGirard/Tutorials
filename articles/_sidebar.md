@@ -10,4 +10,5 @@
   * [error-reporting](/error-reporting/README.md)
   * [gitlab](/gitlab/README.md)
   * [Artifacts & NPM Registries](/artifacts-and-registries/README.md)
+  * [Kafka](/kafka/README.md)
 

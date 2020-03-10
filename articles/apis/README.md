@@ -8,4 +8,5 @@
   * [Tyk](https://tyk.io/)
 
 ### Other
-[Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines)
+* [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines)
+* [the-difference-between-api-gateways-and-service-mesh](https://konghq.com/blog/the-difference-between-api-gateways-and-service-mesh/#.Xlapjw_jwx4.twitter)

@@ -1,4 +1,3 @@
-### React Live templates
 
 | Shortcut  | Code | Description | 
 | --------  | ---- | ----------- |

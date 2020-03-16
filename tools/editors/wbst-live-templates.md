@@ -2,7 +2,7 @@
 
 <!-- tabs:start -->
 
-## ** react **
+### ** react **
 [live-templates-react](wbst-react.md ':include')
 
 <!-- tabs:end -->

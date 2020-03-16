@@ -7,7 +7,8 @@
 
 <!-- tabs:start -->
 
-## ** react **  
+### ** React **
+
 [wbst-react](wbst-react.md ':include')
 
 <!-- tabs:end -->

@@ -1,14 +1,14 @@
 
 | Shortcut  | Code | Description | 
 | --------  | ---- | ----------- |
-| ========= | === **CLASS GENERATORS** ======== | *********************** | 
-| **rcc**   |  import React; <br/> class $1$ extends Component { render(){} }  |  Creates a React component class with ES6 module system |
-| **rcjc**  |  class $1$ extends Component { render(){} }                 |  Creates a React component class with ES6 module system |
-| ========= | === **FUNCTIONAL COMPONENTS** === | *********************** | 
-| **rsc**   |  import React; <br/> const $1$ = () => { return (); };    |  Creates a stateless React component as a constant        |
-| **rsf**   |  import React; <br/> function $1$(props) { return (); };  |  Creates a stateless React component as a named function  |
-| **rsi**   |  import React; <br/> const $1$ = (props) => ();           |  Creates a stateless React component with Implicit Return and props |
-| ========= | === **OTHER SHORTCUTS** ========= | *********************** |
+| ========= | === **CLASS GENERATORS** ======== | ***************************** | 
+| **rcc**   |  import React; <br/> class $1$ extends Component { render(){} }   |  Creates a React component class with ES6 module system |
+| **rcjc**  |  class $1$ extends Component { render(){} }                       |  Creates a React component class with ES6 module system |
+| ========= | === **FUNCTIONAL COMPONENTS** === | ***************************** | 
+| **rsc**   |  import React; <br/> const $1$ = () => { return (); };            |  Creates a stateless React component as a constant        |
+| **rsf**   |  import React; <br/> function $1$(props) { return (); };          |  Creates a stateless React component as a named function  |
+| **rsi**   |  import React; <br/> const $1$ = (props) => ();                   |  Creates a stateless React component with Implicit Return and props |
+| ========= | === **OTHER SHORTCUTS** ========= | ***************************** |
 | **bnd**   |  this.$1$ = this.$1$.bind(this);  |  Binds the this of a method. To be used inside a constructor  |
 | **est**   |  this.state = {&#10; $1$&#10;};   |  Creates empty state object. To be used in a constructor.     |
 | **ssf**   |  this.setState((state, props)     |  Performs a shallow merge of nextState into current state     |

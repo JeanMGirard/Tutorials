@@ -4,7 +4,7 @@
 <!-- tabs:start -->
 
 ## ** Live templates **
-[live-template](live-template.md ':include')
+[live-templates](live-templates.md ':include')
 
 <!-- tabs:end -->
 

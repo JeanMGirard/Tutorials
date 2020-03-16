@@ -1,10 +1,10 @@
 ## Live templates
 
+<!-- tabs:start -->
 
+## ** react **
+[live-templates-react](wbst-react.md ':include')
 
-## react
-dsfdsf
-[wbst-live-templates-react](wbst-react.md)
-
+<!-- tabs:end -->
 
 

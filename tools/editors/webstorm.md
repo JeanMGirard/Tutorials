@@ -4,7 +4,7 @@
 <!-- tabs:start -->
 
 ## ** Live templates **
-[live-templates](live-templates.md ':include')
+[wbst-live-templates](wbst-live-templates.md ':include')
 
 <!-- tabs:end -->
 

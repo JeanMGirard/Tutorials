@@ -1,10 +1,10 @@
 {
-  "name": "jeanmgirard-docs",
+  "name": "@jeanmgirard/docs",
   "version": "1.0.0",
   "description": "[jeanmgirard.github.io](https://jeanmgirard.github.io/docs/#/)",
   "main": "index.js",
   "scripts": {
-    "serve": "docsify serve docs",
+    "start": "docsify serve ./docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/JeanMGirard/docs#readme",
   "devDependencies": {
-    "docsify-cli": "^4.4.0"
+    "docsify-cli": "^4.4.4"
   }
 }
